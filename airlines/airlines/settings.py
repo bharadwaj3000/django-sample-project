@@ -34,7 +34,6 @@ INSTALLED_APPS = [
     'flights',
     'users',
     'todo',
-    'inc_count',
     'django.contrib.admin',
     'django.contrib.auth',
     "crispy_forms",

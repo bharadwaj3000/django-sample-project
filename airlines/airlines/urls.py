@@ -21,6 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("flights/",include("flights.urls", namespace='flights')),
     path("users/", include("users.urls", namespace='users')),
-    path('todo/', include('todo.urls', namespace='todo')),
-    path('inc_count/', include('inc_count.urls', namespace='inc_count'))
+    path('todo/', include('todo.urls', namespace='todo'))
 ]
